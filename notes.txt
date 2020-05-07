@@ -1,0 +1,19 @@
+# class PigLatinizer
+#     attr_accessor :piglatinized_phrase
+
+#   def piglatinize(word)
+#     vol = ['a','e','i','o','u','A','E','I','O','U']
+
+#     if !(vol.include?(word[0]))
+#         word.slice(1..-1) + word[0] + "ay"
+#     else
+#         word + "way"
+#     end
+#   end
+
+#   def to_pig_latin(phrase)
+#     arr = phrase.split(" ")
+#     @piglatinized_phrase = arr.collect {|word| piglatinize(word)}.join(" ")
+
+#   end
+#   end
